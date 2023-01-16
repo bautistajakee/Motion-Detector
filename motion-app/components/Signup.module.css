@@ -2,35 +2,59 @@
 
 .container {
     background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    height: 800px;
+    min-height: 100vh;
 } 
 
 .card {
     text-align: center;
     border: solid 2px black;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 50%;
     margin: auto;
+    background-color: white;
+    filter: drop-shadow(0 0 0.75rem #bebebe);
 }
 
 .container h2 {
+    margin-top: 50px;
     font-family: "Inter";
 }
 
 .container input {
     font-size: 20px;
     margin-top: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
+    width: 70%;
+    height: 50px;
+    padding: 20px 30px;
 }
 
 .container button {
     font-size: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     width: auto;
-    border-radius: 5px;
+    border: #0000ff 2px solid;
+    border-radius: 10px;
+    width: 70%;
+    background-color: #0000ff;
+    color: #ffffff;
+    height: 50px;
+    cursor: pointer;
+}
 
+.container button:hover {
+    background-color: white;
+    color: #0000ff;
+}
+
+.container button:focus {
+    filter: drop-shadow(0 0 0.75rem #0000ff);
 }
 
 .container .same {
