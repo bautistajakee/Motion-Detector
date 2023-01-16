@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital@1&family=Inter:wght@400;800;900&family=Kaushan+Script&display=swap');
+
+.container {
+    background-color: white;
+    text-align: center;
+    height: 800px;
+} 
+
+.card {
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+.container h2 {
+    font-family: "Inter";
+}
+
+.container input {
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.container button {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    border-radius: 5px;
+
+}
+
+.container .same {
+    width: 100%;
+    table-layout: fixed;
+}
