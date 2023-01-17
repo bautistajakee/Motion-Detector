@@ -90,3 +90,27 @@
   font-size: 15px;
 }
 
+.brand {
+  font-weight: 500;
+  font-size: 40px;
+  color: aliceblue;
+}
+
+.navlink {
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.navlink:hover{
+ color: #505a7e;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #008080;
+  padding: 30px 8%;
+  place-items: center;
+}
