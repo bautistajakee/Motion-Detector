@@ -15,7 +15,7 @@ const Login = () => {
                 <input type="button" value="Login" />
             <closeform></closeform></form>
             <p> 
-                <Link href="/newpassword">Forgot Password?</Link>
+                <Link href="/reset">Forgot Password?</Link>
                 <br/>
                 <br/>
                 <br/>

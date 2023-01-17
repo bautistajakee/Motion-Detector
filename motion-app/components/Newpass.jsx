@@ -7,9 +7,9 @@ const New = () => {
             <h1>New Password</h1>
             <form>
                 <label></label>
-                <input type="text" placeholder="Password" />
+                <input type="password" placeholder="Password" />
                 <label></label>
-                <input type="text" placeholder="Confirm Password" />
+                <input type="password" placeholder="Confirm Password" />
                 <input type="button" value="Submit" />
             <closeform></closeform></form>
             </div>
