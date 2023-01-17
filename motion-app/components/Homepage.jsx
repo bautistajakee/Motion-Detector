@@ -6,9 +6,9 @@ const Home = () => {
         <div>
             <header className={styles.header}>
                 <h4 className={styles.brand}>Motion Detector</h4>
-                <Link className={styles.navlink} href="/logout">LOGOUT</Link>
+                <Link className={styles.navlink} href="/logout">Logout</Link>
             </header> 
-            <div className={styles.container}>
+            <div className={styles.c}>
             </div>
         </div>
         
