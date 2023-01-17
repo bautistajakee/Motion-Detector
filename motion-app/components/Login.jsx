@@ -1,4 +1,5 @@
 import styles from "./All.module.css";
+import Link from "next/link";
 
 const Login = () => {
     return(
@@ -14,12 +15,12 @@ const Login = () => {
                 <input type="button" value="Login" />
             <closeform></closeform></form>
             <p> 
-                <a href="resetpassword.html">Forgot Password?</a>
+                <Link href="/forgot">Forgot Password?</Link>
                 <br/>
                 <br/>
                 <br/>
                 No account? 
-                <a href="signup.html">click here</a>
+                <Link href="/signup"> click here</Link>
             </p>
         </div>
         </div>

@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-.container .signup-box {
+.container .signupbox {
   width: 370px;
   height: 430px;
   margin: auto;
@@ -27,7 +27,7 @@
   border-radius: 7px;
   background-color: white;
 }
-.container .new-box {
+.container .newbox {
   width: 360px;
   height: 230px;
   margin: auto;
@@ -35,12 +35,13 @@
   border-radius: 7px;
   background-color: white;
 }
-.container .reset-box {
+.container .resetbox {
   width: 360px;
   height: 200px;
   margin: auto;
   text-align: center;
   border-radius: 7px;
+  background-color: white;
 }
 
 .container h1 {
