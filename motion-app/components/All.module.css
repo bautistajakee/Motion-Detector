@@ -81,7 +81,15 @@
   border-radius: 6px;
   outline: none;
 }
-.container input[type="button"] {
+.container button {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+.container button[type="submit"] {
   margin-top: 20px;
   border: none;
   background-color: #0000FF;
@@ -89,7 +97,7 @@
   font-size: 18px;
   cursor: pointer;
 }
-.container input[type="button"]:hover {
+.container button[type="submit"]:hover {
   background-color: #0000ffaa;
 }
 .container p {
